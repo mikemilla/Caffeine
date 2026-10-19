@@ -45,7 +45,7 @@
 
 /* Lid-closed mode */
 "Keep awake with the lid closed" = "Wakker blijven met gesloten deksel";
-"Lets your Mac keep running with the lid closed while Caffeine is active. Turns off below 10% battery." = "Je Mac blijft werken met gesloten deksel zolang Caffeine actief is. Schakelt uit onder 10% batterij.";
+"Lets your Mac keep running with the lid closed while Caffeine is active, with the built-in speakers muted. Turns off below 10% battery." = "Je Mac blijft werken met gesloten deksel zolang Caffeine actief is, met de ingebouwde luidsprekers gedempt. Schakelt uit onder 10% batterij.";
 "Allow Caffeine in System Settings to finish turning this on." = "Sta Caffeine toe in Systeeminstellingen om het inschakelen af te ronden.";
 "Open Login Items" = "Open inlogonderdelen";
 "Caffeine's helper isn't set up." = "De helper van Caffeine is niet ingesteld.";

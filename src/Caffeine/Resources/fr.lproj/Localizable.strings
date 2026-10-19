@@ -45,7 +45,7 @@
 
 /* Lid-closed mode */
 "Keep awake with the lid closed" = "Rester éveillé avec l’écran rabattu";
-"Lets your Mac keep running with the lid closed while Caffeine is active. Turns off below 10% battery." = "Votre Mac continue de fonctionner écran rabattu tant que Caffeine est actif. Se désactive sous 10 % de batterie.";
+"Lets your Mac keep running with the lid closed while Caffeine is active, with the built-in speakers muted. Turns off below 10% battery." = "Votre Mac continue de fonctionner écran rabattu tant que Caffeine est actif, avec les haut-parleurs intégrés coupés. Se désactive sous 10 % de batterie.";
 "Allow Caffeine in System Settings to finish turning this on." = "Autorisez Caffeine dans Réglages Système pour terminer l’activation.";
 "Open Login Items" = "Ouvrir les éléments de connexion";
 "Caffeine's helper isn't set up." = "L’assistant de Caffeine n’est pas configuré.";

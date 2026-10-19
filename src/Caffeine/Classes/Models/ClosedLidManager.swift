@@ -25,7 +25,12 @@ final class ClosedLidManager: ObservableObject {
     /// Registration state of the helper daemon.
     @Published private(set) var status: SMAppService.Status
     /// Whether the helper currently holds sleep disabled for us.
-    @Published private(set) var isHolding = false
+    @Published private(set) var isHolding = false {
+        didSet {
+            guard self.isHolding != oldValue else { return }
+            self.isHolding ? self.audioMuter.start() : self.audioMuter.stop()
+        }
+    }
     /// Last error to show in preferences, if any.
     @Published private(set) var lastError: String?
 
@@ -34,6 +39,7 @@ final class ClosedLidManager: ObservableObject {
     private var wantsHold = false
     private var batteryTimer: Timer?
     private var approvalTimer: Timer?
+    private let audioMuter = LidAudioMuter()
 
     private init() {
         self.status = self.service.status

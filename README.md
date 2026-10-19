@@ -39,7 +39,7 @@ No, this version requires at least macOS 11 (Big Sur). Caffeine for macOS Yosemi
 
 ##### Can Caffeine keep my Mac awake with the lid closed?
 
-Yes. Turn on "Keep awake with the lid closed" in the preferences, then approve Caffeine's helper once in System Settings › General › Login Items & Extensions. While Caffeine is active, your Mac keeps running with the lid closed, even on battery without an external display. Normal lid-close sleep comes back as soon as Caffeine deactivates or quits, and lid-closed mode turns itself off below 10% battery.
+Yes. Turn on "Keep awake with the lid closed" in the preferences, then approve Caffeine's helper once in System Settings › General › Login Items & Extensions. While Caffeine is active, your Mac keeps running with the lid closed, even on battery without an external display, and its built-in speakers stay muted until you open it. Normal lid-close sleep comes back as soon as Caffeine deactivates or quits, and lid-closed mode turns itself off below 10% battery.
 
 ##### How is Caffeine different or better than alternatives (such as Amphetamine, KeepingYouAwake, etc)?
 

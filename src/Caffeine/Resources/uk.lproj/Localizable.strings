@@ -45,7 +45,7 @@
 
 /* Lid-closed mode */
 "Keep awake with the lid closed" = "Не засинати із закритою кришкою";
-"Lets your Mac keep running with the lid closed while Caffeine is active. Turns off below 10% battery." = "Mac продовжує працювати із закритою кришкою, поки Caffeine активний. Вимикається при заряді нижче 10%.";
+"Lets your Mac keep running with the lid closed while Caffeine is active, with the built-in speakers muted. Turns off below 10% battery." = "Mac продовжує працювати із закритою кришкою, поки Caffeine активний, а вбудовані динаміки вимкнено. Вимикається при заряді нижче 10%.";
 "Allow Caffeine in System Settings to finish turning this on." = "Дозвольте Caffeine у Системних параметрах, щоб завершити ввімкнення.";
 "Open Login Items" = "Відкрити об’єкти входу";
 "Caffeine's helper isn't set up." = "Помічник Caffeine не налаштовано.";

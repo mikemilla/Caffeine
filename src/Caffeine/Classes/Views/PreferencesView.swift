@@ -118,7 +118,7 @@ struct PreferencesView: View {
                 .accessibilityIdentifier("PreferencesView.keepAwakeWithLidClosedToggle")
 
                 Text(
-                    "Lets your Mac keep running with the lid closed while Caffeine is active. Turns off below 10% battery."
+                    "Lets your Mac keep running with the lid closed while Caffeine is active, with the built-in speakers muted. Turns off below 10% battery."
                 )
                 .font(.system(size: 11))
                 .foregroundColor(.secondary)
