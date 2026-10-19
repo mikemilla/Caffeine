@@ -118,7 +118,7 @@ struct PreferencesView: View {
                 .accessibilityIdentifier("PreferencesView.keepAwakeWithLidClosedToggle")
 
                 Text(
-                    "Your Mac keeps running with the lid closed while Caffeine is active, even on battery. Turns itself off below 10% battery."
+                    "Lets your Mac keep running with the lid closed while Caffeine is active. Turns off below 10% battery."
                 )
                 .font(.system(size: 11))
                 .foregroundColor(.secondary)
@@ -170,13 +170,14 @@ extension PreferencesView {
         case .enabled:
             if let error = self.closedLid.lastError {
                 Text(error)
-                    .font(.system(size: 11, weight: .semibold))
-                    .foregroundColor(.orange)
+                    .font(.system(size: 11))
+                    .foregroundColor(.secondary)
             }
         case .requiresApproval:
             HStack(spacing: 8) {
                 Text("Allow Caffeine in System Settings to finish turning this on.")
-                    .font(.system(size: 11, weight: .semibold))
+                    .font(.system(size: 11))
+                    .foregroundColor(.secondary)
                 Button(String(localized: "Open Login Items")) {
                     SMAppService.openSystemSettingsLoginItems()
                 }
@@ -186,8 +187,8 @@ extension PreferencesView {
         default:
             HStack(spacing: 8) {
                 Text(self.closedLid.lastError ?? String(localized: "Caffeine's helper isn't set up."))
-                    .font(.system(size: 11, weight: .semibold))
-                    .foregroundColor(.orange)
+                    .font(.system(size: 11))
+                    .foregroundColor(.secondary)
                 Button(String(localized: "Set Up")) {
                     self.viewModel.updateClosedLid(enabled: true)
                 }
