@@ -42,3 +42,14 @@
 
 /* System messages */
 "Caffeine prevents sleep" = "O Caffeine impede o repouso";
+
+/* Lid-closed mode */
+"Keep awake with the lid closed" = "Manter ativo com a tampa fechada";
+"Your Mac keeps running with the lid closed while Caffeine is active, even on battery. Turns itself off below 10% battery." = "O Mac continua a funcionar com a tampa fechada enquanto o Caffeine estiver ativo, mesmo com bateria. Desativa-se sozinho abaixo de 10% de bateria.";
+"Allow Caffeine in System Settings to finish turning this on." = "Permita o Caffeine nas Definições do Sistema para concluir a ativação.";
+"Open Login Items" = "Abrir elementos de início de sessão";
+"Caffeine's helper isn't set up." = "O assistente do Caffeine não está configurado.";
+"Set Up" = "Configurar";
+"Safe to close the lid" = "Pode fechar a tampa";
+"Caffeine couldn't turn off lid-close sleep." = "O Caffeine não conseguiu desativar a suspensão ao fechar a tampa.";
+"Lid-closed mode turned off at %d%% battery." = "Modo de tampa fechada desativado com %d%% de bateria.";

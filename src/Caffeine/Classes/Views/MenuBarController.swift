@@ -105,6 +105,7 @@ class MenuBarController: NSObject {
     }
 
     private func showContextMenu() {
+        ClosedLidManager.shared.refreshStatus()
         let menu = NSMenu()
 
         // Status info (only show if active)
@@ -113,6 +114,18 @@ class MenuBarController: NSObject {
             infoItem.isEnabled = false
             infoItem.setAccessibilityIdentifier("MenuBarController.statusMenuItem")
             menu.addItem(infoItem)
+
+            if ClosedLidManager.shared.isHolding {
+                let lidItem = NSMenuItem(
+                    title: String(localized: "Safe to close the lid"),
+                    action: nil,
+                    keyEquivalent: ""
+                )
+                lidItem.isEnabled = false
+                lidItem.setAccessibilityIdentifier("MenuBarController.closedLidStatusMenuItem")
+                menu.addItem(lidItem)
+            }
+
             menu.addItem(NSMenuItem.separator())
         }
 

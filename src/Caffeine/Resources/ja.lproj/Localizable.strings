@@ -43,3 +43,13 @@
 /* System messages */
 "Caffeine prevents sleep" = "Caffeine がスリープを防ぎます";
 
+/* Lid-closed mode */
+"Keep awake with the lid closed" = "蓋を閉じてもスリープしない";
+"Your Mac keeps running with the lid closed while Caffeine is active, even on battery. Turns itself off below 10% battery." = "Caffeine がアクティブな間は、バッテリー駆動中でも蓋を閉じたまま Mac が動き続けます。バッテリー残量が 10% を下回ると自動的にオフになります。";
+"Allow Caffeine in System Settings to finish turning this on." = "設定を完了するには、システム設定で Caffeine を許可してください。";
+"Open Login Items" = "ログイン項目を開く";
+"Caffeine's helper isn't set up." = "Caffeine のヘルパーが設定されていません。";
+"Set Up" = "設定";
+"Safe to close the lid" = "蓋を閉じても大丈夫です";
+"Caffeine couldn't turn off lid-close sleep." = "Caffeine は蓋を閉じたときのスリープをオフにできませんでした。";
+"Lid-closed mode turned off at %d%% battery." = "バッテリー残量 %d%% で蓋閉じモードをオフにしました。";

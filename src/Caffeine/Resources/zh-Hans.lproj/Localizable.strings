@@ -43,3 +43,13 @@
 /* System messages */
 "Caffeine prevents sleep" = "Caffeine 会阻止睡眠";
 
+/* Lid-closed mode */
+"Keep awake with the lid closed" = "合上盖子时保持唤醒";
+"Your Mac keeps running with the lid closed while Caffeine is active, even on battery. Turns itself off below 10% battery." = "Caffeine 处于活跃状态时，即使使用电池，Mac 合上盖子后也会继续运行。电量低于 10% 时会自动关闭。";
+"Allow Caffeine in System Settings to finish turning this on." = "请在“系统设置”中允许 Caffeine 以完成开启。";
+"Open Login Items" = "打开登录项";
+"Caffeine's helper isn't set up." = "Caffeine 的辅助程序尚未设置。";
+"Set Up" = "设置";
+"Safe to close the lid" = "可以合上盖子了";
+"Caffeine couldn't turn off lid-close sleep." = "Caffeine 无法关闭合盖睡眠。";
+"Lid-closed mode turned off at %d%% battery." = "电量为 %d%% 时已关闭合盖模式。";
